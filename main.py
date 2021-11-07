@@ -47,7 +47,7 @@ def run_kmeans(df, n_clusters=2):
         y=df.Income,
         hue=kmeans.labels_,
         palette=sns.color_palette("colorblind", n_colors=n_clusters),
-        legend=None,
+        #legend=None,
     )
 
     # Annotate cluster centroids
